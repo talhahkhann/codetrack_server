@@ -1,0 +1,3 @@
+/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles/server.dir
+/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles/edit_cache.dir
+/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles/rebuild_cache.dir
