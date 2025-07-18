@@ -17,6 +17,9 @@ set(SOURCES
     src/db/Database.cpp
     src/db/UserRepository.cpp
     src/services/AuthService.cpp
+    src/api/PushHandler.cpp
+    src/services/PushService.cpp
+    src/db/CommitRepository.cpp
 )
 
 add_executable(server ${SOURCES})

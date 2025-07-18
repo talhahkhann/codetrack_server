@@ -77,3 +77,25 @@ bool UserRepository::isTokenValid(const std::string &email, const std::string &t
     sqlite3_finalize(stmt);
     return valid;
 }
+
+bool UserRepository::getEmailByToken(const std::string &token, std::string &emailOut)
+{
+    const char *sql = "SELECT email FROM users WHERE token = ?";
+    sqlite3_stmt *stmt;
+    auto conn = db.getConnection();
+
+    if (sqlite3_prepare_v2(conn, sql, -1, &stmt, nullptr) != SQLITE_OK)
+        return false;
+
+    sqlite3_bind_text(stmt, 1, token.c_str(), -1, SQLITE_TRANSIENT);
+
+    bool found = false;
+    if (sqlite3_step(stmt) == SQLITE_ROW)
+    {
+        emailOut = std::string(reinterpret_cast<const char *>(sqlite3_column_text(stmt, 0)));
+        found = true;
+    }
+
+    sqlite3_finalize(stmt);
+    return found;
+}

@@ -10,6 +10,7 @@ public:
     bool createUser(const std::string &email, const std::string &passwordHash, const std::string &token);
     bool validateUser(const std::string &email, const std::string &passwordHash, std::string &outToken);
     bool isTokenValid(const std::string &email, const std::string &token);
+    bool getEmailByToken(const std::string &token, std::string &emailOut);
 
 private:
     Database &db;

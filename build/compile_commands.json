@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/main.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/main.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/main.cpp",
+  "output": "CMakeFiles/server.dir/main.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/api/AuthHandler.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/AuthHandler.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/AuthHandler.cpp",
+  "output": "CMakeFiles/server.dir/src/api/AuthHandler.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/db/Database.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/Database.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/Database.cpp",
+  "output": "CMakeFiles/server.dir/src/db/Database.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/db/UserRepository.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/UserRepository.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/UserRepository.cpp",
+  "output": "CMakeFiles/server.dir/src/db/UserRepository.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/services/AuthService.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/AuthService.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/AuthService.cpp",
+  "output": "CMakeFiles/server.dir/src/services/AuthService.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/api/PushHandler.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/PushHandler.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/PushHandler.cpp",
+  "output": "CMakeFiles/server.dir/src/api/PushHandler.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/services/PushService.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/PushService.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/PushService.cpp",
+  "output": "CMakeFiles/server.dir/src/services/PushService.cpp.o"
+},
+{
+  "directory": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/build",
+  "command": "/usr/bin/g++ -DCROW_USE_BOOST -I/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include -I/home/web-wizard/crow/include -g -std=gnu++17 -o CMakeFiles/server.dir/src/db/CommitRepository.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/CommitRepository.cpp",
+  "file": "/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/CommitRepository.cpp",
+  "output": "CMakeFiles/server.dir/src/db/CommitRepository.cpp.o"
+}
+]

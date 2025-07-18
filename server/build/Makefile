@@ -177,6 +177,54 @@ src/api/AuthHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/api/AuthHandler.cpp.s
 .PHONY : src/api/AuthHandler.cpp.s
 
+src/api/PushHandler.o: src/api/PushHandler.cpp.o
+.PHONY : src/api/PushHandler.o
+
+# target to build an object file
+src/api/PushHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/api/PushHandler.cpp.o
+.PHONY : src/api/PushHandler.cpp.o
+
+src/api/PushHandler.i: src/api/PushHandler.cpp.i
+.PHONY : src/api/PushHandler.i
+
+# target to preprocess a source file
+src/api/PushHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/api/PushHandler.cpp.i
+.PHONY : src/api/PushHandler.cpp.i
+
+src/api/PushHandler.s: src/api/PushHandler.cpp.s
+.PHONY : src/api/PushHandler.s
+
+# target to generate assembly for a file
+src/api/PushHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/api/PushHandler.cpp.s
+.PHONY : src/api/PushHandler.cpp.s
+
+src/db/CommitRepository.o: src/db/CommitRepository.cpp.o
+.PHONY : src/db/CommitRepository.o
+
+# target to build an object file
+src/db/CommitRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/db/CommitRepository.cpp.o
+.PHONY : src/db/CommitRepository.cpp.o
+
+src/db/CommitRepository.i: src/db/CommitRepository.cpp.i
+.PHONY : src/db/CommitRepository.i
+
+# target to preprocess a source file
+src/db/CommitRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/db/CommitRepository.cpp.i
+.PHONY : src/db/CommitRepository.cpp.i
+
+src/db/CommitRepository.s: src/db/CommitRepository.cpp.s
+.PHONY : src/db/CommitRepository.s
+
+# target to generate assembly for a file
+src/db/CommitRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/db/CommitRepository.cpp.s
+.PHONY : src/db/CommitRepository.cpp.s
+
 src/db/Database.o: src/db/Database.cpp.o
 .PHONY : src/db/Database.o
 
@@ -249,6 +297,30 @@ src/services/AuthService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/services/AuthService.cpp.s
 .PHONY : src/services/AuthService.cpp.s
 
+src/services/PushService.o: src/services/PushService.cpp.o
+.PHONY : src/services/PushService.o
+
+# target to build an object file
+src/services/PushService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/services/PushService.cpp.o
+.PHONY : src/services/PushService.cpp.o
+
+src/services/PushService.i: src/services/PushService.cpp.i
+.PHONY : src/services/PushService.i
+
+# target to preprocess a source file
+src/services/PushService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/services/PushService.cpp.i
+.PHONY : src/services/PushService.cpp.i
+
+src/services/PushService.s: src/services/PushService.cpp.s
+.PHONY : src/services/PushService.s
+
+# target to generate assembly for a file
+src/services/PushService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/services/PushService.cpp.s
+.PHONY : src/services/PushService.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +336,12 @@ help:
 	@echo "... src/api/AuthHandler.o"
 	@echo "... src/api/AuthHandler.i"
 	@echo "... src/api/AuthHandler.s"
+	@echo "... src/api/PushHandler.o"
+	@echo "... src/api/PushHandler.i"
+	@echo "... src/api/PushHandler.s"
+	@echo "... src/db/CommitRepository.o"
+	@echo "... src/db/CommitRepository.i"
+	@echo "... src/db/CommitRepository.s"
 	@echo "... src/db/Database.o"
 	@echo "... src/db/Database.i"
 	@echo "... src/db/Database.s"
@@ -273,6 +351,9 @@ help:
 	@echo "... src/services/AuthService.o"
 	@echo "... src/services/AuthService.i"
 	@echo "... src/services/AuthService.s"
+	@echo "... src/services/PushService.o"
+	@echo "... src/services/PushService.i"
+	@echo "... src/services/PushService.s"
 .PHONY : help
 
 

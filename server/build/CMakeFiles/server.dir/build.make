@@ -139,13 +139,58 @@ CMakeFiles/server.dir/src/services/AuthService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/services/AuthService.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/AuthService.cpp -o CMakeFiles/server.dir/src/services/AuthService.cpp.s
 
+CMakeFiles/server.dir/src/api/PushHandler.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/api/PushHandler.cpp.o: /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/PushHandler.cpp
+CMakeFiles/server.dir/src/api/PushHandler.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/src/api/PushHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/api/PushHandler.cpp.o -MF CMakeFiles/server.dir/src/api/PushHandler.cpp.o.d -o CMakeFiles/server.dir/src/api/PushHandler.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/PushHandler.cpp
+
+CMakeFiles/server.dir/src/api/PushHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/api/PushHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/PushHandler.cpp > CMakeFiles/server.dir/src/api/PushHandler.cpp.i
+
+CMakeFiles/server.dir/src/api/PushHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/api/PushHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/api/PushHandler.cpp -o CMakeFiles/server.dir/src/api/PushHandler.cpp.s
+
+CMakeFiles/server.dir/src/services/PushService.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/services/PushService.cpp.o: /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/PushService.cpp
+CMakeFiles/server.dir/src/services/PushService.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/src/services/PushService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/services/PushService.cpp.o -MF CMakeFiles/server.dir/src/services/PushService.cpp.o.d -o CMakeFiles/server.dir/src/services/PushService.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/PushService.cpp
+
+CMakeFiles/server.dir/src/services/PushService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/services/PushService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/PushService.cpp > CMakeFiles/server.dir/src/services/PushService.cpp.i
+
+CMakeFiles/server.dir/src/services/PushService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/services/PushService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/services/PushService.cpp -o CMakeFiles/server.dir/src/services/PushService.cpp.s
+
+CMakeFiles/server.dir/src/db/CommitRepository.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/src/db/CommitRepository.cpp.o: /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/CommitRepository.cpp
+CMakeFiles/server.dir/src/db/CommitRepository.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/src/db/CommitRepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/src/db/CommitRepository.cpp.o -MF CMakeFiles/server.dir/src/db/CommitRepository.cpp.o.d -o CMakeFiles/server.dir/src/db/CommitRepository.cpp.o -c /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/CommitRepository.cpp
+
+CMakeFiles/server.dir/src/db/CommitRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/src/db/CommitRepository.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/CommitRepository.cpp > CMakeFiles/server.dir/src/db/CommitRepository.cpp.i
+
+CMakeFiles/server.dir/src/db/CommitRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/db/CommitRepository.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/src/db/CommitRepository.cpp -o CMakeFiles/server.dir/src/db/CommitRepository.cpp.s
+
 # Object files for target server
 server_OBJECTS = \
 "CMakeFiles/server.dir/main.cpp.o" \
 "CMakeFiles/server.dir/src/api/AuthHandler.cpp.o" \
 "CMakeFiles/server.dir/src/db/Database.cpp.o" \
 "CMakeFiles/server.dir/src/db/UserRepository.cpp.o" \
-"CMakeFiles/server.dir/src/services/AuthService.cpp.o"
+"CMakeFiles/server.dir/src/services/AuthService.cpp.o" \
+"CMakeFiles/server.dir/src/api/PushHandler.cpp.o" \
+"CMakeFiles/server.dir/src/services/PushService.cpp.o" \
+"CMakeFiles/server.dir/src/db/CommitRepository.cpp.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
@@ -155,12 +200,15 @@ server: CMakeFiles/server.dir/src/api/AuthHandler.cpp.o
 server: CMakeFiles/server.dir/src/db/Database.cpp.o
 server: CMakeFiles/server.dir/src/db/UserRepository.cpp.o
 server: CMakeFiles/server.dir/src/services/AuthService.cpp.o
+server: CMakeFiles/server.dir/src/api/PushHandler.cpp.o
+server: CMakeFiles/server.dir/src/services/PushService.cpp.o
+server: CMakeFiles/server.dir/src/db/CommitRepository.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 server: /usr/lib/x86_64-linux-gnu/libssl.so
 server: /usr/lib/x86_64-linux-gnu/libcrypto.so
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/8CF066E4F066D3CC/crow_server_codetrack/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

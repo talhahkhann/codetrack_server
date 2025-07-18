@@ -1275,4 +1275,7 @@ CMakeFiles/server.dir/main.cpp.o: \
  /usr/include/sqlite3.h \
  /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/db/UserRepository.h \
  /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/services/AuthService.h \
- /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/api/AuthHandler.h
+ /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/api/AuthHandler.h \
+ /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/services/PushService.h \
+ /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/db/CommitRepository.h \
+ /mnt/8CF066E4F066D3CC/crow_server_codetrack/server/include/api/PushHandler.h
